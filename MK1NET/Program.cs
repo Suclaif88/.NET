@@ -34,6 +34,38 @@ namespace MK1NET
                 "\nSegundo caracter: " + cadena[1];
             Console.WriteLine(resultado);
 
+            //---------------------------------------
+
+            int nota;
+            bool suspense, aprobado, matricula;
+
+            nota = 6;
+
+            suspense = (nota < 5);
+            aprobado = (nota >= 5);
+            matricula = (nota == 10);
+
+            Console.WriteLine(suspense, aprobado, matricula);
+
+            //---------------------------------------
+
+            Console.WriteLine("Instroduzca un valor entero: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a);
+
+            Console.WriteLine("Introduzca un valor real: ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(b);
+
+            //---------------------------------------
+
+            int c = 5;
+            Console.WriteLine(c);
+            Console.WriteLine(c++);
+            Console.WriteLine(c);
+
+            //---------------------------------------   
+
         }
     }
 }

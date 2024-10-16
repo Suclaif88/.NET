@@ -1,0 +1,7 @@
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\obj\Debug\MK1NET.csproj.AssemblyReference.cache
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\obj\Debug\MK1NET.csproj.CoreCompileInputs.cache
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\bin\Debug\MK1NET.exe.config
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\bin\Debug\MK1NET.exe
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\bin\Debug\MK1NET.pdb
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\obj\Debug\MK1NET.exe
+C:\Users\sebaq\source\repos\MK1NET\MK1NET\obj\Debug\MK1NET.pdb

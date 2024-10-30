@@ -1,0 +1,27 @@
+﻿@model PANDERITO.Models.Usuario
+
+@{
+    ViewData["Title"] = "Eliminar Usuario";
+}
+
+<h1>Eliminar Usuario</h1>
+
+<div class="container">
+    <h3>¿Estás seguro de que deseas eliminar el usuario @Model.Nombre @Model.Apellido?</h3>
+
+    <div>
+        <strong>Cédula:</strong> @Model.Cedula <br />
+        <strong>Nombre:</strong> @Model.Nombre <br />
+        <strong>Apellido:</strong> @Model.Apellido <br />
+        <strong>Teléfono:</strong> @Model.Telefono <br />
+        <strong>Dirección:</strong> @Model.Direccion <br />
+    </div>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Cedula" />
+        <div class="form-group">
+            <input type="submit" value="Eliminar" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>

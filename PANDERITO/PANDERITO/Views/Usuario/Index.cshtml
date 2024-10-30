@@ -1,0 +1,41 @@
+﻿@model IEnumerable<PANDERITO.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<div class="container">
+    <h1>Lista de Usuarios</h1>
+    <a href="@Url.Action("Create")" class="button">Agregar Usuario</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Cédula</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.Cedula</td>
+                    <td>@usuario.Nombre</td>
+                    <td>@usuario.Apellido</td>
+                    <td>@usuario.Telefono</td>
+                    <td>@usuario.Direccion</td>
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = usuario.Cedula })" class="button">Editar</a>
+                        <a href="@Url.Action("Delete", new { id = usuario.Cedula })" class="button">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

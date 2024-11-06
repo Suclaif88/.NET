@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SRD-KR21.props" />
+</Project>

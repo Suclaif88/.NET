@@ -13,7 +13,6 @@ namespace SalesManagementApp.Models
 
         public int Cantidad { get; set; }
 
-        // Especificar el tipo de columna con precisión y escala
         [Column(TypeName = "decimal(18,2)")]
         public decimal Subtotal { get; set; }
     }

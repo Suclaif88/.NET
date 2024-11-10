@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SRD-KR21")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01b01744b7d65d20fb3f9f8f6d79bb3fd9efc811")]
 [assembly: System.Reflection.AssemblyProductAttribute("SRD-KR21")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SRD-KR21")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

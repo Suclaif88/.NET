@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\panderito-entity\\srd-kr21\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|solutionrelative:srd-kr21\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\panderito-entity\\srd-kr21\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|solutionrelative:srd-kr21\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\panderito-entity\\srd-kr21\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|solutionrelative:srd-kr21\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\panderito-entity\\srd-kr21\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9274B022-D6AD-4B0B-8816-DF107E3639BE}|SRD-KR21\\SRD-KR21.csproj|solutionrelative:srd-kr21\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,62 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\Views\\Ventas\\Create.cshtml",
-              "RelativeDocumentMoniker": "SRD-KR21\\Views\\Ventas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\Views\\Ventas\\Create.cshtml",
-              "RelativeToolTip": "SRD-KR21\\Views\\Ventas\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:06:02.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\Models\\Venta.cs",
-              "RelativeDocumentMoniker": "SRD-KR21\\Models\\Venta.cs",
-              "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\Models\\Venta.cs",
-              "RelativeToolTip": "SRD-KR21\\Models\\Venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T17:53:17.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\Controllers\\VentasController.cs",
-              "RelativeDocumentMoniker": "SRD-KR21\\Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "SRD-KR21\\Controllers\\VentasController.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAowMQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T17:52:14.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\appsettings.json",
-              "RelativeDocumentMoniker": "SRD-KR21\\appsettings.json",
-              "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\PANDERITO-ENTITY\\SRD-KR21\\appsettings.json",
-              "RelativeToolTip": "SRD-KR21\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-08T17:51:20.88Z"
             }
           ]
         }

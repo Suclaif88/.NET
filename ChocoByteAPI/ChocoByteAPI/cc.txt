@@ -1,0 +1,22 @@
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+dotnet add package System.IdentityModel.Tokens.Jwt
+dotnet add package dotenv.net
+
+dotnet clean
+dotnet build
+
+
+{
+  "cedula": 1033178015,
+  "nombre": "Sebas",
+  "apellido": "Roldan",
+  "direccion": "cra 76",
+  "telefono": "12345",
+  "contrasena": "2005"
+}
+
+
+{
+  "cedula": 1033178015,
+  "contrasena": "2005"
+}

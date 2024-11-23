@@ -68,6 +68,7 @@ namespace ChocoByteAPI.Controllers
             usuarioDb.Direccion = usuario.Direccion;
             usuarioDb.Telefono = usuario.Telefono;
 
+            // Solo actualizar la contraseña si se proporciona
             if (!string.IsNullOrEmpty(usuario.Contrasena))
             {
                 usuarioDb.Contrasena = BCrypt.Net.BCrypt.HashPassword(usuario.Contrasena);
@@ -76,6 +77,7 @@ namespace ChocoByteAPI.Controllers
             await _context.SaveChangesAsync();
             return NoContent();
         }
+
 
 
         // DELETE api/usuarios/{id}

@@ -3,7 +3,7 @@
     public class LoginModel
     {
         public int Cedula { get; set; }
-        public string Contrasena { get; set; }
+        public required string Contrasena { get; set; }
     }
 
 }

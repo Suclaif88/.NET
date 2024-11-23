@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCE1132D-9BEF-4182-B0B7-EB53620373B6}|ChocoByteAPI\\ChocoByteAPI.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\chocobyteapi\\chocobyteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCE1132D-9BEF-4182-B0B7-EB53620373B6}|ChocoByteAPI\\ChocoByteAPI.csproj|solutionrelative:chocobyteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BCE1132D-9BEF-4182-B0B7-EB53620373B6}|ChocoByteAPI\\ChocoByteAPI.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\chocobyteapi\\chocobyteapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCE1132D-9BEF-4182-B0B7-EB53620373B6}|ChocoByteAPI\\ChocoByteAPI.csproj|solutionrelative:chocobyteapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE1132D-9BEF-4182-B0B7-EB53620373B6}|ChocoByteAPI\\ChocoByteAPI.csproj|c:\\users\\sebaq\\onedrive\\escritorio\\.net\\chocobyteapi\\chocobyteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE1132D-9BEF-4182-B0B7-EB53620373B6}|ChocoByteAPI\\ChocoByteAPI.csproj|solutionrelative:chocobyteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\Program.cs",
               "RelativeDocumentMoniker": "ChocoByteAPI\\Program.cs",
               "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\Program.cs",
               "RelativeToolTip": "ChocoByteAPI\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T15:03:37.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "ChocoByteAPI\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "ChocoByteAPI\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwAIAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\Controllers\\UsuariosController.cs*",
+              "RelativeToolTip": "ChocoByteAPI\\Controllers\\UsuariosController.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T15:02:09.963Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

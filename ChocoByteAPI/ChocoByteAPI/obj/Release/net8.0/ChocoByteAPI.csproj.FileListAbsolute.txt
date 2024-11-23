@@ -169,13 +169,3 @@ C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\obj\Release\ne
 C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\obj\Release\net8.0\ChocoByteAPI.pdb
 C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\obj\Release\net8.0\ChocoByteAPI.genruntimeconfig.cache
 C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\obj\Release\net8.0\ref\ChocoByteAPI.dll
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\web.config
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\appsettings.Development.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\appsettings.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\ChocoByteAPI.deps.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\ChocoByteAPI.runtimeconfig.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\out\web.config
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\out\appsettings.Development.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\out\appsettings.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\out\ChocoByteAPI.deps.json
-C:\Users\sebaq\OneDrive\Escritorio\.NET\ChocoByteAPI\ChocoByteAPI\bin\Release\net8.0\out\out\ChocoByteAPI.runtimeconfig.json

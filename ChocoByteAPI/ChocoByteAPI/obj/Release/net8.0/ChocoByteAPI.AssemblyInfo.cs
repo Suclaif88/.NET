@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChocoByteAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f3feeb29b0e077b0b013522465368756509755c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813932b77950f25acba7e907882e21c430e598df")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChocoByteAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChocoByteAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

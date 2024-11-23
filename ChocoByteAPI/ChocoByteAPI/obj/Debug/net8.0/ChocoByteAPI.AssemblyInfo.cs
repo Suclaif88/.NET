@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChocoByteAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfbd32a847ac5bc64514c9fad13420f31c9b99c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813932b77950f25acba7e907882e21c430e598df")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChocoByteAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChocoByteAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,17 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuración de la cadena de conexión a la base de datos (en appsettings.json)
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()  // Permite solicitudes de cualquier origen
+              .AllowAnyHeader()  // Permite cualquier encabezado
+              .AllowAnyMethod(); // Permite cualquier método (GET, POST, etc.)
+    });
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -27,7 +37,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Servicios para Swagger
+// Configuración de Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -65,15 +75,17 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configuración de Swagger UI
+// Habilitar CORS
+app.UseCors();  // Habilita la política CORS definida
+
+// Configuración de Swagger
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "ChocoByteAPI v1");
-    c.RoutePrefix = "swagger"; // Ruta donde Swagger estará disponible
+    c.RoutePrefix = "swagger";
 });
 
-// Usar autenticación y autorización
 app.UseAuthentication();
 app.UseAuthorization();
 

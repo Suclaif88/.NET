@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebaq\\OneDrive\\Escritorio\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj": {}
+    "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebaq\\OneDrive\\Escritorio\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj": {
+    "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj",
         "projectName": "ChocoByteAPI",
-        "projectPath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj",
+        "projectPath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj",
         "packagesPath": "C:\\Users\\sebaq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\ChocoByteAPI\\ChocoByteAPI\\obj\\",
+        "outputPath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

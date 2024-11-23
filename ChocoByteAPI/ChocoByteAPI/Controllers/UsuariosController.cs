@@ -1,6 +1,6 @@
 ﻿using ChocoByteAPI.Data;
 using ChocoByteAPI.Models;
-using Microsoft.AspNetCore.Authorization;  // Asegúrate de agregar esto
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BCrypt.Net;
@@ -9,7 +9,7 @@ namespace ChocoByteAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]  // Asegura que todos los métodos en este controlador necesiten un token JWT
+    [Authorize]
     public class UsuariosController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -63,18 +63,20 @@ namespace ChocoByteAPI.Controllers
             if (usuarioDb == null)
                 return NotFound();
 
-            // Actualizar los campos
             usuarioDb.Nombre = usuario.Nombre;
             usuarioDb.Apellido = usuario.Apellido;
             usuarioDb.Direccion = usuario.Direccion;
             usuarioDb.Telefono = usuario.Telefono;
 
-            // Encriptar la nueva contraseña
-            usuarioDb.Contrasena = BCrypt.Net.BCrypt.HashPassword(usuario.Contrasena);
+            if (!string.IsNullOrEmpty(usuario.Contrasena))
+            {
+                usuarioDb.Contrasena = BCrypt.Net.BCrypt.HashPassword(usuario.Contrasena);
+            }
 
             await _context.SaveChangesAsync();
             return NoContent();
         }
+
 
         // DELETE api/usuarios/{id}
         [HttpDelete("{id}")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uXdiCVBnjRU=",
+  "dgSpecHash": "Tvyr8wIxhv8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj",
+  "projectFilePath": "C:\\Users\\sebaq\\OneDrive\\Escritorio\\.NET\\ChocoByteAPI\\ChocoByteAPI\\ChocoByteAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebaq\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sebaq\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
